@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <!-- Google Tag Manager -->
+  <script>
+   (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer', 'GTM-KZZ9JB' );
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Google tag (gtag.js) - Flatiron - 2025.01.15 RPN -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-962281709">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-962281709');
+  </script>
+  <script type="text/javascript">
+   var munchkinId = "072-UWY-209"; 		(function() {
+			var didInit = false;
+			function initMunchkin() {
+				if(didInit === false) {
+					didInit = true;
+					Munchkin.init(munchkinId);
+				}
+			}
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = '//munchkin.marketo.net/munchkin.js';
+			s.onreadystatechange = function() {
+				if (this.readyState == 'complete' || this.readyState == 'loaded') {
+					initMunchkin();
+				}
+			};
+			s.onload = initMunchkin;
+			document.getElementsByTagName('head')[0].appendChild(s);
+		})();
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://gmpg.org/xfn/11" rel="profile"/>
+  <meta content="ylQpQpPDskwHke7wUFNbJsw0c87BF-LD44G1LE_dQUs" name="google-site-verification">
+   <link color="#00b3e6" href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/safari-pinned-tab.svg" rel="mask-icon"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon.ico" rel="shortcut icon"/>
+   <meta content="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/browserconfig.xml" name="msapplication-config"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-120x120.png" rel="apple-touch-icon" sizes="120x120"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-152x152.png" rel="apple-touch-icon" sizes="152x152"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-167x167.png" rel="apple-touch-icon" sizes="167x167"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-180x180.png" rel="apple-touch-icon" sizes="180x180"/>
+   <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-192x192.png" rel="apple-touch-icon" sizes="192x192"/>
+   <meta content="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-70x70.png" name="msapplication-square70x70logo"/>
+   <meta content="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-150x150.png" name="msapplication-square150x150logo"/>
+   <meta content="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-310x310.png" name="msapplication-square310x310logo"/>
+   <meta content="https://flatironschool.com/wp-content/themes/flatiron-school/assets/images/favicons/favicon-310x150.png" name="msapplication-wide310x150logo"/>
+   <meta content="#ffffff" name="theme-color"/>
+   <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="Flatiron School" name="application-name">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.velocity.min.js">
+     </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js">
+     </script>
+     <!-- WP HEAD: begin -->
+     <script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">
+      var ewww_webp_supported=!1;function check_webp_feature(A,e){var w;e=void 0!==e?e:function(){},ewww_webp_supported?e(ewww_webp_supported):((w=new Image).onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A])}check_webp_feature("alpha");
+     </script>
+     <script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">
+      var Arrive=function(c,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return e=void 0!==e&&("number"!=typeof e.length||e===c)?[e]:e}}),e=(l.prototype.addEvent=function(e,t,r,a){a={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(a),this._eventsBucket.push(a),a},l.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)e(t)&&(this._beforeRemoving&&this._beforeRemoving(t),(t=this._eventsBucket.splice(r,1))&&t.length&&(t[0].callback=null))},l.prototype.beforeAdding=function(e){this._beforeAdding=e},l.prototype.beforeRemoving=function(e){this._beforeRemoving=e},l),t=function(i,n){var o=new e,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e=t.target;e!==c.document&&e!==c||(e=document.getElementsByTagName("html")[0]);var r=new MutationObserver(function(e){n.call(this,e,t)}),a=i(t.options);r.observe(e,a),t.observer=r,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var a=u.toElementsArray(this),i=r,e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1};o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id)))&&(t.firedElems.push(e._id),!0)}var c=(i=new t(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},o=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(o=new t(function(){return{childList:!0,subtree:!0}},function(e,r){e.forEach(function(e){var t=e.removedNodes,e=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,r,i,e),u.callCallbacks(e,r)})})).bindEvent;return o.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},o};d(HTMLElement.prototype),d(NodeList.prototype),d(HTMLCollection.prototype),d(HTMLDocument.prototype),d(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(o,n,"unbindAllLeave"),n}function l(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function d(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=o.bindEvent,s(o,e,"unbindLeave")}}(window,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){var r;ewww_webp_supported?t(ewww_webp_supported):((r=new Image).onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e])}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(var i=document.querySelectorAll("div.woocommerce-product-gallery__image"),r=0,a=i.length;r<a;r++)ewwwAttr(i[r],"data-thumb",i[r].getAttribute("data-webp-thumb"))}for(var n=document.querySelectorAll("video"),r=0,a=n.length;r<a;r++)ewwwAttr(n[r],"poster",e?n[r].getAttribute("data-poster-webp"):n[r].getAttribute("data-poster-image"));for(var o,l=document.querySelectorAll("img.ewww_webp_lazy_load"),r=0,a=l.length;r<a;r++)e&&(ewwwAttr(l[r],"data-lazy-srcset",l[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(l[r],"data-srcset",l[r].getAttribute("data-srcset-webp")),ewwwAttr(l[r],"data-lazy-src",l[r].getAttribute("data-lazy-src-webp")),ewwwAttr(l[r],"data-src",l[r].getAttribute("data-src-webp")),ewwwAttr(l[r],"data-orig-file",l[r].getAttribute("data-webp-orig-file")),ewwwAttr(l[r],"data-medium-file",l[r].getAttribute("data-webp-medium-file")),ewwwAttr(l[r],"data-large-file",l[r].getAttribute("data-webp-large-file")),null!=(o=l[r].getAttribute("srcset"))&&!1!==o&&o.includes("R0lGOD")&&ewwwAttr(l[r],"src",l[r].getAttribute("data-lazy-src-webp"))),l[r].className=l[r].className.replace(/\bewww_webp_lazy_load\b/,"");for(var s=document.querySelectorAll(".ewww_webp"),r=0,a=s.length;r<a;r++)e?(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file")),ewwwAttr(s[r],"data-large_image",s[r].getAttribute("data-webp-large_image")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-webp-src"))):(ewwwAttr(s[r],"srcset",s[r].getAttribute("data-srcset-img")),ewwwAttr(s[r],"src",s[r].getAttribute("data-src-img"))),s[r].className=s[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);
+     </script>
+     <meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots">
+      <style>
+       img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }
+      </style>
+      <!-- This site is optimized with the Yoast SEO plugin v23.8 - https://yoast.com/wordpress/plugins/seo/ -->
+      <title>
+       Coding Bootcamps | Flatiron School
+      </title>
+      <meta content="Join online coding bootcamps with Flatiron School. Apply today to start transforming your skillset into a career in tech." name="description">
+       <link href="https://flatironschool.com/our-courses/" rel="canonical">
+        <meta content="en_US" property="og:locale">
+         <meta content="article" property="og:type">
+          <meta content="Coding Bootcamps | Flatiron School" property="og:title">
+           <meta content="Join online coding bootcamps with Flatiron School. Apply today to start transforming your skillset into a career in tech." property="og:description"/>
+           <meta content="https://flatironschool.com/our-courses/" property="og:url"/>
+           <meta content="Flatiron School" property="og:site_name"/>
+           <meta content="2025-03-28T20:35:53+00:00" property="article:modified_time"/>
+           <meta content="summary_large_image" name="twitter:card"/>
+           <meta content="Est. reading time" name="twitter:label1"/>
+           <meta content="6 minutes" name="twitter:data1"/>
+           <script class="yoast-schema-graph" type="application/ld+json">
+            {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://flatironschool.com/our-courses/","url":"https://flatironschool.com/our-courses/","name":"Coding Bootcamps | Flatiron School","isPartOf":{"@id":"https://flatironschool.com/#website"},"datePublished":"2021-11-30T16:39:30+00:00","dateModified":"2025-03-28T20:35:53+00:00","description":"Join online coding bootcamps with Flatiron School. Apply today to start transforming your skillset into a career in tech.","breadcrumb":{"@id":"https://flatironschool.com/our-courses/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://flatironschool.com/our-courses/"]}]},{"@type":"BreadcrumbList","@id":"https://flatironschool.com/our-courses/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://flatironschool.com/"},{"@type":"ListItem","position":2,"name":"courses"}]},{"@type":"WebSite","@id":"https://flatironschool.com/#website","url":"https://flatironschool.com/","name":"Flatiron School","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://flatironschool.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}
+           </script>
+           <!-- / Yoast SEO plugin. -->
+           <script id="pys-version-script" type="application/javascript">
+            console.log('PixelYourSite Free version 10.1.2');
+           </script>
+           <link href="//static.addtoany.com" rel="dns-prefetch">
+            <link href="https://flatironschool.com/feed/" rel="alternate" title="Flatiron School » Feed" type="application/rss+xml">
+             <link href="https://flatironschool.com/comments/feed/" rel="alternate" title="Flatiron School » Comments Feed" type="application/rss+xml">
+              <link href="https://flatironschool.com/wp-includes/css/dist/block-library/style.min.css?ver=add3a0253062bfe4ca190dd8b91ee738" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css">
+               <style id="wp-block-library-theme-inline-css" type="text/css">
+                .wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+               </style>
+               <style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+                .safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+               </style>
+               <style id="classic-theme-styles-inline-css" type="text/css">
+                /*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+               </style>
+               <style id="global-styles-inline-css" type="text/css">
+                :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+               </style>
+               <link href="https://flatironschool.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.2.7" id="cookie-law-info-css" media="all" rel="stylesheet" type="text/css">
+                <link href="https://flatironschool.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.2.7" id="cookie-law-info-gdpr-css" media="all" rel="stylesheet" type="text/css">
+                 <link href="https://flatironschool.com/wp-content/themes/flatiron-school/assets/css/app.css?id=137df89fc4b3185fb25f2c0d917a9fd2" id="site-styles-css" media="all" rel="stylesheet" type="text/css">
+                  <link href="https://flatironschool.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16" id="addtoany-css" media="all" rel="stylesheet" type="text/css">
+                   <script id="addtoany-core-js-before" type="text/javascript">
+                    /* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="transparent,#303030";
+/* ]]> */
+                   </script>
+                   <script defer="" id="addtoany-core-js" src="https://static.addtoany.com/menu/page.js" type="text/javascript">
+                   </script>
+                   <script id="jquery-core-js" src="https://flatironschool.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" type="text/javascript">
+                   </script>
+                   <script id="jquery-migrate-js" src="https://flatironschool.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" type="text/javascript">
+                   </script>
+                   <script defer="" id="addtoany-jquery-js" src="https://flatironschool.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" type="text/javascript">
+                   </script>
+                   <script id="cookie-law-info-js-extra" type="text/javascript">
+                    /* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#101820","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#de4b51","button_1_button_hover":"#b23c41","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#de4b51","button_2_button_hover":"#b23c41","button_2_link_colour":"#ffffff","button_2_as_button":"1","button_2_hidebar":"1","button_3_button_colour":"#de4b51","button_3_button_hover":"#b23c41","button_3_link_colour":"#ffffff","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#de4b51","button_4_button_hover":"#b23c41","button_4_link_colour":"#ffffff","button_4_as_button":"1","button_7_button_colour":"#de4b51","button_7_button_hover":"#b23c41","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#ffffff","show_once_yn":"","show_once":"8000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/flatironschool.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+                   </script>
+                   <script id="cookie-law-info-js" src="https://flatironschool.com/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.2.7" type="text/javascript">
+                   </script>
+                   <script id="jquery-bind-first-js" src="https://flatironschool.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=add3a0253062bfe4ca190dd8b91ee738" type="text/javascript">
+                   </script>
+                   <script id="js-cookie-pys-js" src="https://flatironschool.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" type="text/javascript">
+                   </script>
+                   <script id="js-tld-js" src="https://flatironschool.com/wp-content/plugins/pixelyoursite/dist/scripts/tld.min.js?ver=2.3.1" type="text/javascript">
+                   </script>
+                   <script id="pys-js-extra" type="text/javascript">
+                    /* <![CDATA[ */
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","ajaxFire":true,"name":"PageView","pixelIds":["1706055166302798"],"eventID":"e8c674bb-56bf-493f-bbe3-665cf2c79ad6","params":{"page_title":"Courses","post_type":"page","post_id":1350,"plugin":"PixelYourSite","user_role":"guest","event_url":"flatironschool.com\/our-courses\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["1706055166302798"],"advancedMatching":[],"advancedMatchingEnabled":true,"removeMetadata":true,"contentParams":{"post_type":"page","post_id":1350,"content_name":"Courses"},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":null,"enabled_medical":false,"do_not_track_medical_param":["event_url","post_title","page_title","landing_page","content_name","categories","category_name","tags"],"meta_ldu":false},"debug":"","siteUrl":"https:\/\/flatironschool.com","ajaxUrl":"https:\/\/flatironschool.com\/wp-admin\/admin-ajax.php","ajax_event":"01011e00df","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","ajaxForServerStaticEvent":"1","send_external_id":"1","external_id_expire":"180","track_cookie_for_subdomains":"1","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":true,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"undefined","TrafficUtms":[],"TrafficUtmsId":[]},"GATags":{"ga_datalayer_type":"default","ga_datalayer_name":"dataLayerPYS"},"woo":{"enabled":false},"edd":{"enabled":false},"cache_bypass":"1743444208"};
+/* ]]> */
+                   </script>
+                   <script id="pys-js" src="https://flatironschool.com/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=10.1.2" type="text/javascript">
+                   </script>
+                   <link href="https://flatironschool.com/wp-json/" rel="https://api.w.org/">
+                    <link href="https://flatironschool.com/wp-json/wp/v2/pages/1350" rel="alternate" title="JSON" type="application/json">
+                     <link href="https://flatironschool.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml">
+                      <link href="https://flatironschool.com/?p=1350" rel="shortlink"/>
+                      <noscript>
+                       <style>
+                        .lazyload[data-src]{display:none !important;}
+                       </style>
+                      </noscript>
+                      <style>
+                       .lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}
+                      </style>
+                      <!-- WP HEAD: end -->
+                      <link href="https://fonts.googleapis.com" rel="preconnect"/>
+                      <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+                      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;900&amp;family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+                      <script>
+                       var $ = jQuery.noConflict();
+                      </script>
+                      <!--    <script src="//hi.flatironschool.com/js/forms2/js/forms2.min.js"></script>-->
+                      <script>
+                       //insentLoadLazy = true; //optional parameter to hide widget until setVisitor is called.
+        //ziChatLanguage = 'zh' // optional parameter to change language to chinese
+        insentCompanyDomain = 'flatironschool.com';
+        insentProjectName = 'flatironschool';
+        insentProjectKey = 'tyu9IaGHWUDEvlGP30k3';
+        var t = window.insent || {}; t.queue = [];
+        (t.SCRIPT_VERSION = '0.1.3'),
+            (t.methods = ['widget', 'listener', 'setVisitor']),
+            (t.factory = function (e) { return function () {
+                var n = Array.prototype.slice.call(arguments); return n.unshift(e), t.queue.push(n), t; };
+            }),
+            t.methods.forEach(function (e) { t[e] = t.factory(e); }); insent = t;
+        var s = document.createElement('script');
+        (s.type = 'text/javascript'), (s.charset = 'utf-8'), (s.defer = !0),
+            (s.src = '<a target="_blank" data-stringify-link="https://flatironschool.widget.insent.ai/insent" delay="150" data-sk="tooltip_parent" href="https://flatironschool.widget.insent.ai/insent" rel="noopener noreferrer">https://flatironschool.widget.insent.ai/insent</a>'),
+            document.readyState === 'complete'? document.body.appendChild(s): window.addEventListener('load', function(n) {
+                document.body.appendChild(s);
+            });
+                      </script>
+                      <!-- load flatiron supermoon widget -->
+                      <script data-supermoon-team-id="668ea15e53f1368d83486304" src="https://cdn.getsupermoon.com/moon-chat.js" type="text/javascript">
+                      </script>
+                      <script>
+                       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdp.customer.io/v1/analytics-js/snippet/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._writeKey=key;analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.15.3";
+        analytics.load("d20aefd2d0a1b8192909");
+        analytics.page();
+      }}();
+                      </script>
+                      <!--MNTN Tracking Pixel-->
+                      <!-- INSTALL ON ALL PAGES OF SITE-->
+                      <script type="text/javascript">
+                       (function(){"use strict";var e=null,b="4.0.0",
+        n="39786",
+        additional="term=value",
+        t,r,i;try{t=top.document.referer!==""?encodeURIComponent(top.document.referrer.substring(0,2048)):""}catch(o){t=document.referrer!==null?document.referrer.toString().substring(0,2048):""}try{r=window&&window.top&&document.location&&window.top.location===document.location?document.location:window&&window.top&&window.top.location&&""!==window.top.location?window.top.location:document.location}catch(u){r=document.location}try{i=parent.location.href!==""?encodeURIComponent(parent.location.href.toString().substring(0,2048)):""}catch(a){try{i=r!==null?encodeURIComponent(r.toString().substring(0,2048)):""}catch(f){i=""}}var l,c=document.createElement("script"),h=null,p=document.getElementsByTagName("script"),d=Number(p.length)-1,v=document.getElementsByTagName("script")[d];if(typeof l==="undefined"){l=Math.floor(Math.random()*1e17)}h="dx.mountain.com/spx?"+"dxver="+b+"&shaid="+n+"&tdr="+t+"&plh="+i+"&cb="+l+additional;c.type="text/javascript";c.src=("https:"===document.location.protocol?"https://":"http://")+h;v.parentNode.insertBefore(c,v)})()
+                      </script>
+                      <!-- Formstack tracking - added 2025.01.14 RPN -->
+                      <script>
+                       (function(t,e,n,r,a){var c,i=e[a]=e[a]||{init:function(t){function e(t){
+      i[t]=function(){i.q.push([t,[].slice.call(arguments,0)])}}var n,r;i.q=[],
+      n="addListener track".split(" ");for(r in n)e(n[r]);
+      i.q.push(["init",[t||{}]])}},s=t.createElement(r);s.async=1,s.src=n,
+      c=t.getElementsByTagName(r)[0],c.parentNode.insertBefore(s,c)
+      })(document,window,"https://www.formstack.com/js/fsa.js","script","FSATracker");
+
+      FSATracker.init({"account":"779923", "endpoint":"https://www.formstack.com"});
+                      </script>
+                      <style>
+                       .box-shadow {
+            box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+        }
+                      </style>
+                     </link>
+                    </link>
+                   </link>
+                  </link>
+                 </link>
+                </link>
+               </link>
+              </link>
+             </link>
+            </link>
+           </link>
+          </meta>
+         </meta>
+        </meta>
+       </link>
+      </meta>
+     </meta>
+    </meta>
+   </meta>
+  </meta>
+ </head>
+ <body class="page-template-default page page-id-1350 wp-embed-responsive">
+  <script data-cfasync="false" data-no-defer="1" data-no-minify="1" data-no-optimize="1">
+   if(typeof ewww_webp_supported==="undefined"){var ewww_webp_supported=!1}if(ewww_webp_supported){document.body.classList.add("webp-support")}
+  </script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+   <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KZZ9JB" style="display:none;visibility:hidden" width="0">
+   </iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <a class="visually-hidden-focusable" href="#siteMain">
+   Skip to content
+  </a>
+  <style>
+   .promo-banner-short {
+        display: none;
+        min-height: 60px;
+        background: #08ade2;
+        padding: 10px;
+    }
+
+    .promo-medium-text {
+        font-weight: 700;
+    }
+
+    .promo-banner-gap {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 2em;
+    }
+
+    .promo-banner-close {
+        display: none;
+    }
+
+    .btn-promo-banner {
+        padding: 6px 14px;
+        min-height: 20px;
+    }
+  </style>
+  <!--Site Header-->
+  <header class="site-header is-fixed site-header-white" id="siteHeader" role="banner">
+   <div class="promo-banner-short">
+    <div class="promo-banner-gap">
+     <div class="promo-medium-text color-white">
+      Bootcamps up to $7,000 off!
+     </div>
+     <a class="btn btn-primary btn-white btn-promo-banner" href="/blog/limited-time-tuition-offer-2025" target="">
+      Learn More
+     </a>
+    </div>
+   </div>
+   <div class="header-container">
+    <a aria-label="Flatiron school logo" class="site-logo logo-light" href="https://flatironschool.com">
+    </a>
+    <nav class="navigation-collapse" id="primaryNavigation">
+     <ul class="navbar navbar-primary">
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link nav-link-white dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="#" id="primaryDropdown0" role="button">
+        Courses
+       </a>
+       <div aria-labelledby="primaryDropdown0" class="dropdown-menu dropdown-menu-primary dropdown-menu-left low-count-nav-dropdown">
+        <div class="dropdown-body">
+         <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed">
+          back
+         </button>
+         <ul class="dropdown-list nav" role="tablist">
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-teal" href="https://flatironschool.com/our-courses/">
+            Course Overview
+           </a>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab0" aria-selected="false" class="dropdown-link hover-color-teal show active" data-bs-target="#dropdownTab0" data-bs-toggle="pill" id="dropdownPanel0" role="tab" type="button">
+            Artificial Intelligence
+           </button>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab1" aria-selected="false" class="dropdown-link hover-color-teal" data-bs-target="#dropdownTab1" data-bs-toggle="pill" id="dropdownPanel1" role="tab" type="button">
+            Software Engineering
+           </button>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab2" aria-selected="false" class="dropdown-link hover-color-teal" data-bs-target="#dropdownTab2" data-bs-toggle="pill" id="dropdownPanel2" role="tab" type="button">
+            Data Science
+           </button>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab3" aria-selected="false" class="dropdown-link hover-color-teal" data-bs-target="#dropdownTab3" data-bs-toggle="pill" id="dropdownPanel3" role="tab" type="button">
+            Cybersecurity
+           </button>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab4" aria-selected="false" class="dropdown-link hover-color-teal" data-bs-target="#dropdownTab4" data-bs-toggle="pill" id="dropdownPanel4" role="tab" type="button">
+            Game Design
+           </button>
+          </li>
+          <li class="dropdown-item" role="presentation">
+           <button aria-controls="dropdownTab5" aria-selected="false" class="dropdown-link hover-color-teal" data-bs-target="#dropdownTab5" data-bs-toggle="pill" id="dropdownPanel5" role="tab" type="button">
+            Game Programming
+           </button>
+          </li>
+         </ul>
+         <div class="tab-content">
+          <div aria-labelledby="dropdownPanel0" class="tab-pane fade show active" id="dropdownTab0" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-blue-dark mb-10">
+               Artificial Intelligence
+              </strong>
+              <p>
+               Learn to develop AI models with the world's most popular languages, tools, and techniques. From learning the basics of Python to creating your first artificial intelligence - whatever you want to create, we'll get you there.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/artificial-intelligence-bootcamp" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+          <div aria-labelledby="dropdownPanel1" class="tab-pane fade" id="dropdownTab1" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-teal mb-10">
+               Software Engineering
+              </strong>
+              <p>
+               Become a software engineer to help businesses develop software, build web applications, and products that will help shape the future of the company.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/coding-bootcamp/" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply/" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-teal mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-teal mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-teal mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+          <div aria-labelledby="dropdownPanel2" class="tab-pane fade" id="dropdownTab2" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-blue-dark mb-10">
+               Data Science
+              </strong>
+              <p>
+               Become a data scientist to help businesses leverage data, analyze data, and provide data-driven insights so businesses can make informed decisions.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/data-science-bootcamp/" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply/" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+          <div aria-labelledby="dropdownPanel3" class="tab-pane fade" id="dropdownTab3" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-blue-dark mb-10">
+               Cybersecurity
+              </strong>
+              <p>
+               Become a cybersecurity engineer so you can help companies and organizations of all sizes protect data from getting stolen, hacked, leaked, or damaged.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/cybersecurity-engineering-bootcamp/" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply/" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+          <div aria-labelledby="dropdownPanel4" class="tab-pane fade" id="dropdownTab4" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-blue-dark mb-10">
+               Game Design
+              </strong>
+              <p>
+               Learn what makes a video game compelling, master game system design, and gain confidence in using tools like Unreal Engine and Photoshop. Create a polished professional portfolio of your best work.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/game-design-bootcamp" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+          <div aria-labelledby="dropdownPanel5" class="tab-pane fade" id="dropdownTab5" role="tabpanel">
+           <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed-sub">
+            back
+           </button>
+           <div class="dropdown-panels">
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <!-- -->
+              <!--                                                                            <span class="badge-square bg--->
+              <!-- mb-10">-->
+              <!-- -->
+              <!--                                                                            </span>-->
+              <!-- -->
+              <strong class="heading-25-semibold color-blue-dark mb-10">
+               Game Programming
+              </strong>
+              <p>
+               Learn to code video games in 48 weeks! Master Unreal Engine, learn game production techniques, and analyze top games to create your own. Finish with a playable game to showcase to employers.
+              </p>
+              <div class="btn-row mt-20">
+               <a class="btn btn-primary no-wrap btn-orange" href="https://flatironschool.com/courses/game-programming-bootcamp" target="">
+                Learn More
+               </a>
+               <a class="btn btn-primary no-wrap btn-blue" href="https://flatironschool.com/apply" target="">
+                Apply Today
+               </a>
+              </div>
+             </div>
+            </div>
+            <div class="dropdown-panel">
+             <div class="dropdown-panel-body">
+              <h3>
+               <a href="https://flatironschool.com/tuition-financing/">
+                Tuition &amp; Financing
+               </a>
+              </h3>
+              <p>
+               We have many flexible options for advancing your career. Start building your skills right now.
+              </p>
+              <h3>
+               <a href="https://flatironschool.com/info-session">
+                Join an Info Session
+               </a>
+              </h3>
+              <p>
+               Check out our bootcamp info sessions and see what you will learn.
+              </p>
+              <!-- <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Software Engineering
+                                                                            </strong>
+                                                                            <p>
+                                                                                See if you have what it takes to become a Software Engineer. Start building your skills right now. <a href="#">Try a free Lesson</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Download Syllabus
+                                                                            </strong>
+                                                                            <p>
+                                                                                Check out our Software Engineering Course Syllabus and see what you will learn. <a href="#">Download Syllabus</a>
+                                                                            </p>
+                                                                            <strong class="heading-20-semibold color-blue-dark mb-10">
+                                                                                Workshops & Events
+                                                                            </strong>
+                                                                            <p>
+                                                                                Ask questions, learn about the Software Engineering classroom experience, and more. <a href="#">Get Prepared</a>
+                                                                            </p> -->
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link nav-link-white" href="/career-services/" target="">
+        Career Services
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link nav-link-white" href="https://flatironschool.com/tuition-financing/" target="">
+        Tuition &amp; Financing
+       </a>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link nav-link-white dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="#" id="primaryDropdown3" role="button">
+        Enterprise
+       </a>
+       <div aria-labelledby="primaryDropdown3" class="dropdown-menu dropdown-menu-primary dropdown-menu-right">
+        <div class="dropdown-body">
+         <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed">
+          back
+         </button>
+         <ul class="dropdown-list nav-col-1">
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/enterprise/" target="">
+            About Enterprise
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/enterprise/artificial-intelligence-training-programs/" target="">
+            AI Training
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/enterprise/resources/" target="">
+            Resource Center
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/tech-talent-solutions/" target="">
+            Recruiting
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/tech-training-solutions/" target="">
+            Training Solutions
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/license-curriculum/" target="">
+            License Curriculum
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/tuition-benefits/" target="">
+            NEW // Tuition Benefits
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </li>
+      <li class="nav-item dropdown">
+       <a aria-expanded="false" class="nav-link nav-link-white dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" href="#" id="primaryDropdown4" role="button">
+        About Us
+       </a>
+       <div aria-labelledby="primaryDropdown4" class="dropdown-menu dropdown-menu-primary dropdown-menu-right">
+        <div class="dropdown-body">
+         <button aria-label="back" class="btn btn-link-black btn-link-arrow-small btn-arrow-before btn-arrow-blue js-dropdown-collapsed">
+          back
+         </button>
+         <ul class="dropdown-list nav-col-1">
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/about-us/" target="">
+            About Us
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/award-winning/" target="">
+            Awards
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/diversity-inclusion/" target="">
+            Diversity &amp; Inclusion
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/events/" target="">
+            Events
+           </a>
+          </li>
+          <li class="dropdown-item">
+           <a class="dropdown-link hover-color-orange" href="https://flatironschool.com/blog/" target="">
+            Blog
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </li>
+      <li class="nav-item">
+       <a class="btn btn-search btn-search-white nav-link" href="https://portal.flatironschool.com/" id="navbarSearchToggle" role="button" target="_blank">
+        <span class="visually-hidden">
+         Account
+        </span>
+        <svg aria-hidden="true" fill="none" height="32" viewbox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+         <path clip-rule="evenodd" d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" fill-rule="evenodd" stroke="currentColor" stroke-miterlimit="10" stroke-width="2">
+         </path>
+         <path clip-rule="evenodd" d="M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z" fill-rule="evenodd" stroke="currentColor" stroke-miterlimit="10" stroke-width="2">
+         </path>
+         <path clip-rule="evenodd" d="M7.97485 24.9218C8.72812 23.4408 9.8765 22.1971 11.2929 21.3284C12.7093 20.4598 14.3384 20 16 20C17.6615 20 19.2906 20.4598 20.707 21.3284C22.1234 22.1971 23.2718 23.4407 24.0251 24.9217" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+         </path>
+        </svg>
+       </a>
+      </li>
+      <li class="nav-item">
+       <a class="btn btn-primary btn-blue btn-xs-full" href="/apply/">
+        Apply Now
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggle navbar-toggle-white collapsed" id="navbarToggle" role="button">
+     <span class="toggler-icons" role="presentation">
+     </span>
+    </button>
+   </div>
+   <form action="https://flatironschool.com/" class="navbar-search" id="navbarSearchForm" method="get" role="search">
+    <div class="search-wrap">
+     <input aria-label="Search" autocomplete="off" class="search-control" id="navbarSearch" name="s" placeholder="Search Site" type="text" value=""/>
+     <a aria-label="Close search" class="search-close" id="navbarSearchClose" role="button">
+     </a>
+    </div>
+   </form>
+  </header>
+  <main class="site-main" id="siteMain" role="main">
+   <script type="application/ld+json">
+    {
+	"@context": "http://schema.org/",
+	"@type": "Course",
+		"description":"The best 2022 coding courses online. We’ve helped thousands of Flatiron School students transform their lives and their companies.",
+		"image":"https://en.wikipedia.org/wiki/Flatiron_School#/media/File:FS_wiki.png",
+		"name":"Flatiron School",
+		"potentialAction":"Course Offering ",
+		"url":"https://flatironschool.com/our-courses/"
+}
+   </script>
+   <div class="post-1350 page type-page status-publish hentry" id="post-1350">
+    <div class="page-content">
+     <!--hero-->
+     <section class="hero-image-block image-block image-static bg-navy-mobile">
+      <picture class="">
+       <!-- element-overlay element-overlay-darken-20 -->
+       <source media="(min-width: 768px)" srcset="https://flatironschool.com/wp-content/uploads/2023/02/Untitled-design-1.jpg"/>
+       <img alt="Man reviewing Flatiron School Coding Bootcamps" class="bg-image" decoding="async" height="256" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2023/02/Untitled-design-1-768x256.jpg" width="768"/>
+      </picture>
+      <div class="image-overlay position-absolute-lg">
+       <div class="container-fluid">
+        <div class="row align-items-lg-center justify-content-center no-gutters">
+         <div class="col-lg-10 col-xxl-9 col-xxxl-8 text-center">
+          <h1 class="heading-primary color-white color-white-mobile mb-20 text-shadow animatezz animatezz-1s" data-animationzz="fadeInUp" data-animationzz-delay="0s">
+           Coding Bootcamps Teaching In-Demand Tech Skills
+          </h1>
+          <div class="btn-stacked" data-animation="scaleIn" data-animation-delay="0s">
+           <a class="btn btn-primary btn-orange" href="https://flatironschool.com/apply/" target="">
+            Get Started
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!--block-->
+     <section class="column-highlights pt-sm pb-sm bg-white">
+      <div class="container">
+       <div class="mb-sm">
+        <header class="pb-xs text-center">
+         <h2 class="heading-50-black color-black">
+          What We Teach
+         </h2>
+        </header>
+       </div>
+       <div class="columns row justify-content-center">
+        <!--Column Item-->
+        <div class="column-item col-lg-3 col-sm-6">
+         <div class="img-container">
+          <img alt="Software engineering student working at laptop" class="img-responsive lazyload" data-eio-rheight="216" data-eio-rwidth="280" data-src="https://flatironschool.com/wp-content/uploads/2023/05/1-1-1-rsz.jpg" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAADYAQAAAAAYasEhAAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cGBAAAAAMOg+VMf4QJVAQAAAAAAAMA3HmAAAZWNpM8AAAAASUVORK5CYII="/>
+          <noscript>
+           <img alt="Software engineering student working at laptop" class="img-responsive" data-eio="l" decoding="async" src="https://flatironschool.com/wp-content/uploads/2023/05/1-1-1-rsz.jpg"/>
+          </noscript>
+         </div>
+         <h3 class="heading-25-extrabold color-black">
+          Software Engineering
+         </h3>
+         <p>
+          Gain a foundation in software engineering by building full-stack web applications using back-end and front-end programming languages, frameworks, and artificial intelligence tools.
+         </p>
+         <p>
+          <strong>
+           Possible career paths:
+          </strong>
+          <br/>
+          Full Stack Developer, Web Developer, Software Engineer, and Prompt Engineer.
+         </p>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/courses/coding-bootcamp/" target="">
+           Learn More
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+        <!--Column Item-->
+        <div class="column-item col-lg-3 col-sm-6">
+         <div class="img-container">
+          <img alt="Data Science student working at computer" class="img-responsive lazyload" data-eio-rheight="216" data-eio-rwidth="280" data-src="https://flatironschool.com/wp-content/uploads/2023/05/3-4-rsz.jpg" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAADYAQAAAAAYasEhAAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cGBAAAAAMOg+VMf4QJVAQAAAAAAAMA3HmAAAZWNpM8AAAAASUVORK5CYII="/>
+          <noscript>
+           <img alt="Data Science student working at computer" class="img-responsive" data-eio="l" decoding="async" src="https://flatironschool.com/wp-content/uploads/2023/05/3-4-rsz.jpg"/>
+          </noscript>
+         </div>
+         <h3 class="heading-25-extrabold color-black">
+          Data Science
+         </h3>
+         <p>
+          Discover how to gather data from various sources as well as apply statistical analyses, artificial intelligence, and machine learning techniques to answer questions and make the information actionable.
+         </p>
+         <p>
+          <strong>
+           Possible career paths:
+          </strong>
+          <br/>
+          Data Analyst, Business Intelligence Analyst, AI Engineer, and Data Scientist.
+         </p>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/courses/data-science-bootcamp/" target="">
+           Learn More
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+        <!--Column Item-->
+        <div class="column-item col-lg-3 col-sm-6">
+         <div class="img-container">
+          <img alt="Cybersecurity student working at computer" class="img-responsive lazyload" data-eio-rheight="216" data-eio-rwidth="280" data-src="https://flatironschool.com/wp-content/uploads/2023/05/4-1-3-rsz.jpg" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAADYAQAAAAAYasEhAAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cGBAAAAAMOg+VMf4QJVAQAAAAAAAMA3HmAAAZWNpM8AAAAASUVORK5CYII="/>
+          <noscript>
+           <img alt="Cybersecurity student working at computer" class="img-responsive" data-eio="l" decoding="async" src="https://flatironschool.com/wp-content/uploads/2023/05/4-1-3-rsz.jpg"/>
+          </noscript>
+         </div>
+         <h3 class="heading-25-extrabold color-black">
+          Cybersecurity
+         </h3>
+         <p>
+          Gain a foundation in network and systems security, Python, risk and compliance, logs and detection, threat intelligence, applied cryptography, and how to leverage artificial intelligence tools.
+         </p>
+         <p>
+          <strong>
+           Possible career paths:
+          </strong>
+          <br/>
+          Cyber Engineer, Penetration Tester, Security Analyst, and Security Consultant.
+         </p>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/courses/cybersecurity-engineering-bootcamp/" target="">
+           Learn More
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+        <!--Column Item-->
+        <div class="column-item col-lg-3 col-sm-6">
+         <div class="img-container">
+          <img alt="product design student working at computer" class="img-responsive lazyload" data-eio-rheight="216" data-eio-rwidth="280" data-src="https://flatironschool.com/wp-content/uploads/2023/05/2-4-rsz.jpg" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAADYAQAAAAAYasEhAAAAAnRSTlMAAHaTzTgAAAAeSURBVFjD7cGBAAAAAMOg+VMf4QJVAQAAAAAAAMA3HmAAAZWNpM8AAAAASUVORK5CYII="/>
+          <noscript>
+           <img alt="product design student working at computer" class="img-responsive" data-eio="l" decoding="async" src="https://flatironschool.com/wp-content/uploads/2023/05/2-4-rsz.jpg"/>
+          </noscript>
+         </div>
+         <h3 class="heading-25-extrabold color-black">
+          Artificial Intelligence
+         </h3>
+         <p>
+          Learn to develop AI models with the world’s most popular languages, tools, and techniques. From learning the basics of Python to creating your first artificial intelligence.
+         </p>
+         <p>
+          <strong>
+           Possible career paths:
+          </strong>
+          <br/>
+          AI Engineer, Machine Learning Engineer, Data Scientist, AI Researcher, and AI Product Manager
+         </p>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/courses/artificial-intelligence-bootcamp/" target="">
+           Learn More
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!--block-->
+     <section class="column-highlights pt-lg pb-lg bg-white">
+      <div class="container">
+       <div class="mb-sm">
+        <header class="pb-xs text-center">
+         <h2 class="heading-50-black color-black">
+          Your Life Won’t Wait For A Career Change
+         </h2>
+         <p>
+          Our programs offer maximum flexibility to fit education into your life – not the other way around.
+         </p>
+        </header>
+       </div>
+       <div class="columns row justify-content-center">
+        <!--Column Item-->
+        <div class="column-item col-lg-4">
+         <h3 class="heading-25-extrabold color-black">
+          Full-Time
+         </h3>
+         <p>
+          You’re ready to commit to a full-time course load. You’ll graduate in 12 or 15 weeks, depending on the program.
+         </p>
+         <ul>
+          <li>
+           12 or 15 weeks
+          </li>
+          <li>
+           100% online
+          </li>
+          <li>
+           Learn along with your cohort
+          </li>
+          <li>
+           Course highlights:
+           <ul>
+            <li>
+             Learn from industry experts with real-world experience
+            </li>
+            <li>
+             Project-based learning
+            </li>
+            <li>
+             Optional weekly sessions with your facilitator
+            </li>
+            <li>
+             Discord with classmates and other Flatiron students
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/apply/" target="">
+           Apply For Full-Time
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+        <!--Column Item-->
+        <div class="column-item col-lg-4">
+         <h3 class="heading-25-extrabold color-black">
+          Part-Time
+         </h3>
+         <p>
+          Our part-time course is designed for busy people. If you don’t have 8 hours to dedicate a day, then part-time is for you.
+         </p>
+         <ul>
+          <li>
+           36, 45, or 48 weeks
+          </li>
+          <li>
+           100% online
+          </li>
+          <li>
+           Flexible learning at your own pace
+          </li>
+          <li>
+           Course highlights:
+           <ul>
+            <li>
+             Learn from industry experts with real-world experience
+            </li>
+            <li>
+             Project-based learning
+            </li>
+            <li>
+             Optional weekly sessions with your facilitator
+            </li>
+            <li>
+             Discord with classmates and other Flatiron students
+            </li>
+           </ul>
+          </li>
+         </ul>
+         <div class="btn-row">
+          <a class="btn btn-primary-new btn-blue" href="https://flatironschool.com/apply/" target="">
+           Apply For Part-Time
+           <svg aria-hidden="true" fill="none" height="15" viewbox="0 0 9 15" width="9" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7 7.5L1 14" stroke="white" stroke-width="2">
+            </path>
+           </svg>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!--block-->
+     <section class="container-fluid pt-md pb-none mt-none mb-none bg-white">
+      <div class="row justify-content-center text-center">
+       <div class="col-sm-10 col-xl-12 col-xxxl-9">
+        <h2 class="heading-60-black color-black mb-20">
+         Our Awards
+        </h2>
+       </div>
+      </div>
+     </section>
+     <!--block-->
+     <section class="container-fluid pt-none pb-sm mt-none mb-none bg-white">
+      <div class="row row-grid justify-content-center">
+       <div class="col-ms-6 col-lg-3 col-xxl-2">
+        <section class="card-logo animate animate-1s" data-animation="fadeInUp" data-animation-delay="0ms">
+         <a class="card-link" href="#best-bootcamp-2023">
+          <img alt="Course report best coding bootcamp 2023 badge" class="card-img img-fluid lazyload" data-eio-rheight="340" data-eio-rwidth="440" data-src="https://flatironschool.com/wp-content/uploads/2023/02/Course-report-best-coding-bootcamp-2023.png" decoding="async" height="340" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAFUAQAAAAB+NxTnAAAAAnRSTlMAAHaTzTgAAAApSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAATwZKYAAB2BW/qwAAAABJRU5ErkJggg==" width="440"/>
+          <noscript>
+           <img alt="Course report best coding bootcamp 2023 badge" class="card-img img-fluid" data-eio="l" decoding="async" height="340" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2023/02/Course-report-best-coding-bootcamp-2023.png" width="440"/>
+          </noscript>
+          <p>
+           Awarded Best Coding Bootcamp 2023
+          </p>
+         </a>
+        </section>
+       </div>
+       <div class="col-ms-6 col-lg-3 col-xxl-2">
+        <section class="card-logo animate animate-1s" data-animation="fadeInUp" data-animation-delay="0ms">
+         <a class="card-link" href="#link">
+          <img alt="Career Karma best data science bootcamp 2021" class="card-img img-fluid lazyload" data-eio-rheight="340" data-eio-rwidth="440" data-src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-data-science.png" decoding="async" height="340" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAFUAQAAAAB+NxTnAAAAAnRSTlMAAHaTzTgAAAApSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAATwZKYAAB2BW/qwAAAABJRU5ErkJggg==" width="440"/>
+          <noscript>
+           <img alt="Career Karma best data science bootcamp 2021" class="card-img img-fluid" data-eio="l" decoding="async" height="340" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-data-science.png" width="440"/>
+          </noscript>
+          <p>
+           Awarded Best Data Science 2021
+          </p>
+         </a>
+        </section>
+       </div>
+       <div class="col-ms-6 col-lg-3 col-xxl-2">
+        <section class="card-logo animate animate-1s" data-animation="fadeInUp" data-animation-delay="0ms">
+         <a class="card-link" href="#link">
+          <img alt="Career karma best cybersecurity bootcamp 2021" class="card-img img-fluid lazyload" data-eio-rheight="340" data-eio-rwidth="440" data-src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-cyber-security.png" decoding="async" height="340" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAFUAQAAAAB+NxTnAAAAAnRSTlMAAHaTzTgAAAApSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAATwZKYAAB2BW/qwAAAABJRU5ErkJggg==" width="440"/>
+          <noscript>
+           <img alt="Career karma best cybersecurity bootcamp 2021" class="card-img img-fluid" data-eio="l" decoding="async" height="340" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-cyber-security.png" width="440"/>
+          </noscript>
+          <p>
+           Awarded Best Cyber Security Bootcamp 2021
+          </p>
+         </a>
+        </section>
+       </div>
+       <div class="col-ms-6 col-lg-3 col-xxl-2">
+        <section class="card-logo animate animate-1s" data-animation="fadeInUp" data-animation-delay="0ms">
+         <a class="card-link" href="#link">
+          <img alt="Switchup best coding bootcamps 2021" class="card-img img-fluid lazyload" data-eio-rheight="340" data-eio-rwidth="440" data-src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-bootcamp.png" decoding="async" height="340" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbgAAAFUAQAAAAB+NxTnAAAAAnRSTlMAAHaTzTgAAAApSURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAATwZKYAAB2BW/qwAAAABJRU5ErkJggg==" width="440"/>
+          <noscript>
+           <img alt="Switchup best coding bootcamps 2021" class="card-img img-fluid" data-eio="l" decoding="async" height="340" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2021/11/logo-best-bootcamp.png" width="440"/>
+          </noscript>
+          <p>
+           Awarded Best Online Bootcamp 2021
+          </p>
+         </a>
+        </section>
+       </div>
+      </div>
+     </section>
+     <!--cta block-->
+     <section class="image-block image-static pt-none pb-none mt-none mb-none">
+      <picture>
+       <source data-srcset="https://flatironschool.com/wp-content/uploads/2022/01/images-web-1800x800-flatrion-school-students-12-overlay.jpg" media="(min-width: 768px)"/>
+       <img alt="flatiron school students working together" class="bg-image lazyload" data-eio-rheight="341" data-eio-rwidth="768" data-src="https://flatironschool.com/wp-content/uploads/2022/01/images-web-1800x800-flatrion-school-students-12-overlay-768x341.jpg" decoding="async" height="341" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwAAAAFVAQAAAABwJrVOAAAAAnRSTlMAAHaTzTgAAAA3SURBVHja7cExAQAAAMKg9U9tB2+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA4E1AAGkoBnrAAAAAElFTkSuQmCC" width="768"/>
+      </picture>
+      <noscript>
+       <img alt="flatiron school students working together" class="bg-image" data-eio="l" decoding="async" height="341" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2022/01/images-web-1800x800-flatrion-school-students-12-overlay-768x341.jpg" width="768"/>
+      </noscript>
+      <div class="image-overlay position-absolute-lg bg-navy-mobile bg-navy">
+       <div class="container-fluid-lg">
+        <div class="row align-items-center justify-content-start no-gutters">
+         <div class="col-lg-8 col-xl-7 col-xxl-6">
+          <h2 class="heading-60-black color-white-mobile color-white mb-20">
+           Chat with Admissions
+          </h2>
+          <div class="color-white-mobile color-white mw-60-xl">
+           <p>
+            Find out more about how you can take the first steps towards transforming your career. Schedule a 20-minute info session with admissions.
+           </p>
+          </div>
+          <div class="btn-row mt-30" data-animation="scaleIn" data-animation-delay="0s">
+           <a class="btn btn-primary btn-orange" href="https://calendly.com/flatiron-school/admissions-info-session?a1=Flatiron" target="">
+            Talk to Admissions
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!--Block-->
+     <section class="pt-md pb-md mt-none mb-none bg-white">
+      <!-- bg-gradient-gray-light pb-md pt-lg -->
+      <div class="container-fluid-lg">
+       <header class="pb-xs text-center">
+        <h2 class="heading-40-semibold color-black mb-0">
+         Events
+        </h2>
+       </header>
+       <div class="row row-grid position-relative gutters-md justify-content-lg-center">
+        <div class="col-sm-6 col-xl-4">
+         <article class="card-feature animate animate-1s" data-animation="fadeInUp" data-animation-delay="0s">
+          <a class="card-link" href="https://flatironschool.com/event/paying-for-bootcamp-your-flatiron-school-guide-2/">
+           <figure class="card-image-container img-rounded">
+            <img alt="Paying for Bootcamp: Your Flatiron School Guide" class="img-responsive lazyload ewww_webp_lazy_load" data-eio-rheight="270" data-eio-rwidth="420" data-src="https://flatironschool.com/wp-content/uploads/2024/08/Paying-For-Bootcamp-monthly-event-420x270.jpg" data-src-webp="https://flatironschool.com/wp-content/uploads/2024/08/Paying-For-Bootcamp-monthly-event-420x270.jpg.webp" decoding="async" height="270" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAEOAQAAAADusF4QAAAAAnRSTlMAAHaTzTgAAAAlSURBVGje7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAD+Bjj0AAE5DW+KAAAAAElFTkSuQmCC" width="420"/>
+            <noscript>
+             <img alt="Paying for Bootcamp: Your Flatiron School Guide" class="img-responsive" data-eio="l" decoding="async" height="270" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2024/08/Paying-For-Bootcamp-monthly-event-420x270.jpg" width="420"/>
+            </noscript>
+            <div class="card-date bg-white position-absolute-20-tr">
+             <span class="date-year color-black">
+              9
+             </span>
+             <span class="date-month color-black">
+              Apr
+             </span>
+            </div>
+           </figure>
+           <div class="card-body">
+            <h3 class="heading-20-semibold color-black">
+             Paying for Bootcamp: Your Flatiron School Guide
+            </h3>
+           </div>
+           <div class="card-footer footer-wrap">
+            <div class="list-inline pb-10 w-100">
+             <strong class="list-item text-15-bold">
+              Online
+             </strong>
+             <span class="list-item text-15-regular">
+              Wed, April 9 @ 6:00 pm
+             </span>
+            </div>
+            <span class="btn btn-secondary btn-black dynamic-link" data-dynamic-link="#reg">
+             Register Now
+            </span>
+           </div>
+          </a>
+         </article>
+        </div>
+        <div class="col-sm-6 col-xl-4">
+         <article class="card-feature animate animate-1s" data-animation="fadeInUp" data-animation-delay="0.2s">
+          <a class="card-link" href="https://flatironschool.com/event/admissions-info-session/">
+           <figure class="card-image-container img-rounded">
+            <img alt="Admissions Info Session" class="img-responsive lazyload ewww_webp_lazy_load" data-eio-rheight="270" data-eio-rwidth="420" data-src="https://flatironschool.com/wp-content/uploads/2025/02/3-420x270.jpg" data-src-webp="https://flatironschool.com/wp-content/uploads/2025/02/3-420x270.jpg.webp" decoding="async" height="270" loading="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAEOAQAAAADusF4QAAAAAnRSTlMAAHaTzTgAAAAlSURBVGje7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAD+Bjj0AAE5DW+KAAAAAElFTkSuQmCC" width="420"/>
+            <noscript>
+             <img alt="Admissions Info Session" class="img-responsive" data-eio="l" decoding="async" height="270" loading="lazy" src="https://flatironschool.com/wp-content/uploads/2025/02/3-420x270.jpg" width="420"/>
+            </noscript>
+            <div class="card-date bg-white position-absolute-20-tr">
+             <span class="date-year color-black">
+              31
+             </span>
+             <span class="date-month color-black">
+              Mar
+             </span>
+            </div>
+           </figure>
+           <div class="card-body">
+            <h3 class="heading-20-semibold color-black">
+             Admissions Info Session
+            </h3>
+           </div>
+           <div class="card-footer footer-wrap">
+            <div class="list-inline pb-10 w-100">
+             <strong class="list-item text-15-bold">
+              Online
+             </strong>
+             <span class="list-item text-15-regular">
+              Mon, March 31 @ 4:00 pm
+             </span>
+            </div>
+            <span class="btn btn-secondary btn-black dynamic-link" data-dynamic-link="">
+             Register Now
+            </span>
+           </div>
+          </a>
+         </article>
+        </div>
+        <div class="col-12 d-flex justify-content-center" data-animation="scaleIn" data-animation-delay="0s">
+         <a class="btn btn-primary btn-black" href="/events/" target="">
+          View All Events
+         </a>
+        </div>
+       </div>
+      </div>
+     </section>
+     <!--Block-->
+     <section class="pt-md pb-md mt-none mb-none bg-gray-light">
+      <div class="container-fluid-lg">
+       <header class="pb-xs text-center">
+        <h2 class="heading-50-black color-black">
+         Learn More About Our Coding Bootcamps
+        </h2>
+       </header>
+       <div class="color-black mw-50-lg mx-auto mb-50 text-center">
+        <p>
+         There’s a lot to consider when choosing a coding course – check out our blog for alumni stories, industry trends, and career advice.
+        </p>
+       </div>
+       <div class="row row-grid gutters-md">
+        <div class="col-lg">
+         <article class="card-feature">
+          <a class="card-link" href="https://flatironschool.com/blog/learn-python-for-free/">
+           <figure class="card-image-container img-rounded">
+            <img alt="" class="img-responsive" decoding="async" fetchpriority="high" height="270" src="https://flatironschool.com/wp-content/uploads/2021/11/Data_Science_Learn_how_to_code_Python_for_free_Cover-420x270.jpg" width="480"/>
+           </figure>
+           <div class="card-body">
+            <span class="micro-title-small color-orange">
+             <span class="visually-hidden">
+              Category:
+             </span>
+             Data Science
+            </span>
+            <h3 class="heading-20-semibold color-black">
+             Learn to Code Python: Free Lesson for Beginners
+            </h3>
+            <p>
+             Behind JavaScript, HTML/CSS, and SQL, Python is the fourth most popular language with 44.1% of developers. Check out this article on how you can learn this popular programming language for free.
+            </p>
+           </div>
+          </a>
+         </article>
+        </div>
+        <div class="col-lg">
+         <article class="card-feature">
+          <a class="card-link" href="https://flatironschool.com/blog/flatiron-school-launches-new-technology-education-programs-with-unc-charlotte/">
+           <figure class="card-image-container img-rounded">
+            <img alt="" class="img-responsive lazyload ewww_webp_lazy_load" data-eio-rheight="270" data-eio-rwidth="420" data-src="https://flatironschool.com/wp-content/uploads/2025/02/UNC-CHARLOTTE-420x270.png" data-src-webp="https://flatironschool.com/wp-content/uploads/2025/02/UNC-CHARLOTTE-420x270.png.webp" decoding="async" height="270" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAEOAQAAAADusF4QAAAAAnRSTlMAAHaTzTgAAAAlSURBVGje7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAD+Bjj0AAE5DW+KAAAAAElFTkSuQmCC" width="480"/>
+            <noscript>
+             <img alt="" class="img-responsive" data-eio="l" decoding="async" height="270" src="https://flatironschool.com/wp-content/uploads/2025/02/UNC-CHARLOTTE-420x270.png" width="480"/>
+            </noscript>
+           </figure>
+           <div class="card-body">
+            <span class="micro-title-small color-orange">
+             <span class="visually-hidden">
+              Category:
+             </span>
+             Partnerships
+            </span>
+            <h3 class="heading-20-semibold color-black">
+             Flatiron School Launches New Technology Education Programs with UNC Charlotte
+            </h3>
+            <p>
+             Flatiron School is partnering with UNC Charlotte to launch a suite of accelerated technical education programs.
+            </p>
+           </div>
+          </a>
+         </article>
+        </div>
+        <div class="col-lg">
+         <article class="card-feature">
+          <a class="card-link" href="https://flatironschool.com/blog/jobs-you-can-get-knowing-python/">
+           <figure class="card-image-container img-rounded">
+            <img alt="" class="img-responsive lazyload" data-eio-rheight="270" data-eio-rwidth="420" data-src="https://flatironschool.com/wp-content/uploads/2023/02/Resized-blog-thumbnail-24-420x270.jpg" decoding="async" height="270" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAEOAQAAAADusF4QAAAAAnRSTlMAAHaTzTgAAAAlSURBVGje7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAD+Bjj0AAE5DW+KAAAAAElFTkSuQmCC" width="480"/>
+            <noscript>
+             <img alt="" class="img-responsive" data-eio="l" decoding="async" height="270" src="https://flatironschool.com/wp-content/uploads/2023/02/Resized-blog-thumbnail-24-420x270.jpg" width="480"/>
+            </noscript>
+           </figure>
+           <div class="card-body">
+            <span class="micro-title-small color-orange">
+             <span class="visually-hidden">
+              Category:
+             </span>
+             Software Engineering
+            </span>
+            <h3 class="heading-20-semibold color-black">
+             7 Jobs You Can Get Knowing Python
+            </h3>
+            <p>
+             For fledgling developers, Python is often one of the first programming languages they learn. Here are 7 jobs you could land by learning this versatile and easy-to-learn language.
+            </p>
+           </div>
+          </a>
+         </article>
+        </div>
+        <div class="col-lg">
+         <article class="card-feature">
+          <a class="card-link" href="https://flatironschool.com/blog/what-is-ux-ui-design/">
+           <figure class="card-image-container img-rounded">
+            <img alt="" class="img-responsive lazyload" data-eio-rheight="270" data-eio-rwidth="420" data-src="https://flatironschool.com/wp-content/uploads/2021/11/image5-420x270.jpg" decoding="async" height="270" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAEOAQAAAADusF4QAAAAAnRSTlMAAHaTzTgAAAAlSURBVGje7cExAQAAAMKg9U9tDB+gAAAAAAAAAAAAAAAAAAD+Bjj0AAE5DW+KAAAAAElFTkSuQmCC" width="480"/>
+            <noscript>
+             <img alt="" class="img-responsive" data-eio="l" decoding="async" height="270" src="https://flatironschool.com/wp-content/uploads/2021/11/image5-420x270.jpg" width="480"/>
+            </noscript>
+           </figure>
+           <div class="card-body">
+            <span class="micro-title-small color-orange">
+             <span class="visually-hidden">
+              Category:
+             </span>
+             Tech Trends
+            </span>
+            <h3 class="heading-20-semibold color-black">
+             What is UX / UI Design?
+            </h3>
+            <p>
+             User interface/user experience design is one of the hottest areas in technology today. But what exactly is it?
+            </p>
+           </div>
+          </a>
+         </article>
+        </div>
+       </div>
+      </div>
+     </section>
+    </div>
+   </div>
+  </main>
+  <!--<button data-toggle="modal" data-target="#popup-form-enterprise-gate">Form</button>-->
+  <!--<button data-toggle="modal" data-target="#popup-form-enterprise-gate-thank-you">Thank You</button>-->
+  <footer class="site-footer" role="contentinfo">
+   <div class="container-fluid">
+    <div class="row row-grid-mb">
+     <div class="col-md-12 col-lg">
+      <a aria-label="Flatiron School logo" class="site-logo logo-light" href="https://flatironschool.com">
+      </a>
+     </div>
+     <div class="col-md-4 col-lg">
+      <div class="" id="footerCollapse0">
+       <ul class="footer-list list-stacked">
+        <li class="list-item">
+         <a class="list-link" href="/our-courses/">
+          Courses
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="https://flatironschool.com/blog/">
+          Flatiron School Blog
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="https://flatironschool.com/events/">
+          Events
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="https://flatironschool.com/about-us/">
+          About Us
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="https://flatironschool.com/careers/">
+          Careers
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="/contact-us/">
+          Contact
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="col-md-4 col-lg">
+      <strong class="footer-title">
+       Campuses
+      </strong>
+      <button aria-controls="footerCollapse1" aria-expanded="false" class="footer-toggle collapsed" data-bs-target="#footerCollapse1" data-bs-toggle="collapse" type="button">
+       Campuses
+      </button>
+      <div class="collapse" id="footerCollapse1">
+       <ul class="footer-list list-stacked">
+        <li class="list-item">
+         <a class="list-link" href="https://flatironschool.com/campuses/online/">
+          Online
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="col-md-4 col-lg">
+      <strong class="footer-title">
+       Legal
+      </strong>
+      <button aria-controls="footerCollapse2" aria-expanded="false" class="footer-toggle collapsed" data-bs-target="#footerCollapse2" data-bs-toggle="collapse" type="button">
+       Legal
+      </button>
+      <div class="collapse" id="footerCollapse2">
+       <ul class="footer-list list-stacked">
+        <li class="list-item">
+         <a class="list-link" href="/tos">
+          Terms
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="/privacy">
+          Privacy Policy
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="/accessibility">
+          Accessibility
+         </a>
+        </li>
+        <li class="list-item">
+         <a class="list-link" href="https://docs.google.com/document/d/e/2PACX-1vR5jkzQ5F0HJ1Vqk_M-Sg62vTj0qq0OatFYfTDNoXxNLN6uU4vy_UWiFnTXcdlzfvSV9pTGNxOkgysC/pub">
+          Regulatory Information
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="col-md-4 col-lg">
+      <div class="collapse" id="footerCollapse3">
+       <div class="footer-address">
+        <p>
+         11 Broadway, 2nd Floor
+         <br/>
+         New York, NY 10004
+         <br/>
+         info@flatironschool.com
+         <br/>
+         1 (888) 958-0569
+         <br/>
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="col-md-12 col-xxl pt-20-md-down">
+      <ul class="list-inline">
+       <li class="list-item">
+        <a aria-label="Visit us on LinkedIn" class="color-gray-light" href="https://www.linkedin.com/school/the-flatiron-school/" target="_blank">
+         <svg aria-label="LinkedIn" fill="currentColor" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 2.8c0 .807-.277 1.477-.832 2.012-.555.535-1.285.802-2.191.802H2.94c-.867 0-1.574-.267-2.12-.802C.272 4.269 0 3.599 0 2.8c0-.806.277-1.472.832-2C1.395.268 2.125 0 3.023 0c.883 0 1.594.267 2.133.802.547.527.828 1.193.844 1.999ZM.504 8.164h4.992V24H.504V8.163ZM13.5 14.807V24H8.496V11.742c-.055-2.026-.082-3.22-.082-3.579h4.922l.164 2.191c.531-.822 1.176-1.476 1.934-1.963.757-.487 1.613-.73 2.566-.73 1.797 0 3.246.63 4.348 1.891C23.449 10.805 24 12.557 24 14.807V24h-5.004v-8.678c0-1.213-.254-2.111-.762-2.694-.5-.59-1.152-.886-1.957-.886-.797 0-1.46.268-1.992.802-.523.527-.785 1.281-.785 2.263Z">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on Twitter" class="color-gray-light" href="https://twitter.com/flatironschool" target="_blank">
+         <svg aria-label="Twitter" fill="currentColor" height="24" width="31" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.276 24c11.143 0 17.24-9.235 17.24-17.24 0-.26-.006-.525-.017-.785a12.307 12.307 0 0 0 3.022-3.137 11.948 11.948 0 0 1-3.478.952A6.093 6.093 0 0 0 29.708.439a12.181 12.181 0 0 1-3.847 1.47 6.068 6.068 0 0 0-10.33 5.526A17.211 17.211 0 0 1 3.042 1.108a6.067 6.067 0 0 0 1.875 8.086 6.067 6.067 0 0 1-2.746-.755v.075a6.058 6.058 0 0 0 4.862 5.942 6.024 6.024 0 0 1-2.734.104 6.072 6.072 0 0 0 5.661 4.21 12.154 12.154 0 0 1-8.975 2.507A17.192 17.192 0 0 0 10.276 24Z">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on Facebook" class="color-gray-light" href="https://www.facebook.com/FlatironSchool/" target="_blank">
+         <svg aria-label="Facebook" fill="currentColor" height="24" width="25" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24.984 12.073C24.984 5.405 19.578 0 12.91 0S.837 5.405.837 12.073C.837 18.1 5.252 23.094 11.024 24v-8.437H7.958v-3.49h3.066v-2.66c0-3.025 1.802-4.697 4.56-4.697 1.32 0 2.703.236 2.703.236v2.971h-1.523c-1.5 0-1.967.93-1.967 1.887v2.263h3.348l-.535 3.49h-2.813V24c5.772-.906 10.187-5.9 10.187-11.927Z" fill="currentColor">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on Instagram" class="color-gray-light" href="https://www.instagram.com/flatironschool/?hl=en" target="_blank">
+         <svg aria-label="Instagram" fill="currentColor" height="24" width="25" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.523 2.161c3.207 0 3.587.014 4.848.07 1.172.052 1.805.25 2.227.413.558.216.961.478 1.379.896.421.422.68.82.895 1.378.164.422.361 1.06.413 2.227.056 1.266.07 1.646.07 4.848 0 3.207-.014 3.587-.07 4.848-.052 1.172-.249 1.805-.413 2.227a3.712 3.712 0 0 1-.895 1.378 3.69 3.69 0 0 1-1.379.896c-.422.164-1.06.36-2.227.412-1.266.056-1.645.07-4.848.07-3.207 0-3.586-.014-4.847-.07-1.173-.051-1.806-.248-2.227-.412a3.712 3.712 0 0 1-1.379-.896 3.692 3.692 0 0 1-.895-1.378c-.164-.422-.361-1.06-.413-2.227-.056-1.266-.07-1.646-.07-4.848 0-3.207.014-3.587.07-4.848.052-1.172.249-1.805.413-2.227.215-.558.478-.961.895-1.378a3.69 3.69 0 0 1 1.379-.896c.421-.164 1.06-.36 2.227-.412 1.26-.057 1.64-.07 4.847-.07Zm0-2.161C9.265 0 8.857.014 7.577.07 6.302.127 5.425.333 4.666.628a5.858 5.858 0 0 0-2.129 1.388A5.88 5.88 0 0 0 1.149 4.14C.854 4.904.648 5.776.591 7.05c-.056 1.285-.07 1.693-.07 4.951 0 3.259.014 3.667.07 4.947.057 1.275.263 2.152.558 2.911a5.87 5.87 0 0 0 1.388 2.129 5.868 5.868 0 0 0 2.124 1.383c.764.295 1.636.501 2.911.558 1.28.056 1.688.07 4.947.07 3.258 0 3.666-.014 4.946-.07 1.275-.057 2.152-.263 2.911-.558a5.869 5.869 0 0 0 2.124-1.383 5.869 5.869 0 0 0 1.383-2.124c.296-.764.502-1.636.558-2.912.057-1.28.07-1.688.07-4.946s-.013-3.666-.07-4.946c-.056-1.275-.262-2.152-.558-2.912a5.623 5.623 0 0 0-1.373-2.133A5.867 5.867 0 0 0 20.386.633C19.622.338 18.75.13 17.474.075 16.19.015 15.782 0 12.524 0Z" fill="currentColor">
+          </path>
+          <path d="M12.523 5.837a6.167 6.167 0 0 0-6.165 6.165 6.167 6.167 0 0 0 6.165 6.166 6.167 6.167 0 0 0 6.166-6.166 6.167 6.167 0 0 0-6.166-6.165Zm0 10.165a4 4 0 1 1 .002-8 4 4 0 0 1-.002 8Zm7.849-10.409a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0Z">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on Threads" class="color-gray-light" href="https://www.threads.net/@flatironschool" target="_blank">
+         <svg aria-label="Threads" fill="currentColor" height="28" viewbox="0 0 448 512" width="25" xmlns="http://www.w3.org/2000/svg">
+          <path d="M331.5 235.7c2.2 .9 4.2 1.9 6.3 2.8c29.2 14.1 50.6 35.2 61.8 61.4c15.7 36.5 17.2 95.8-30.3 143.2c-36.2 36.2-80.3 52.5-142.6 53h-.3c-70.2-.5-124.1-24.1-160.4-70.2c-32.3-41-48.9-98.1-49.5-169.6V256v-.2C17 184.3 33.6 127.2 65.9 86.2C102.2 40.1 156.2 16.5 226.4 16h.3c70.3 .5 124.9 24 162.3 69.9c18.4 22.7 32 50 40.6 81.7l-40.4 10.8c-7.1-25.8-17.8-47.8-32.2-65.4c-29.2-35.8-73-54.2-130.5-54.6c-57 .5-100.1 18.8-128.2 54.4C72.1 146.1 58.5 194.3 58 256c.5 61.7 14.1 109.9 40.3 143.3c28 35.6 71.2 53.9 128.2 54.4c51.4-.4 85.4-12.6 113.7-40.9c32.3-32.2 31.7-71.8 21.4-95.9c-6.1-14.2-17.1-26-31.9-34.9c-3.7 26.9-11.8 48.3-24.7 64.8c-17.1 21.8-41.4 33.6-72.7 35.3c-23.6 1.3-46.3-4.4-63.9-16c-20.8-13.8-33-34.8-34.3-59.3c-2.5-48.3 35.7-83 95.2-86.4c21.1-1.2 40.9-.3 59.2 2.8c-2.4-14.8-7.3-26.6-14.6-35.2c-10-11.7-25.6-17.7-46.2-17.8H227c-16.6 0-39 4.6-53.3 26.3l-34.4-23.6c19.2-29.1 50.3-45.1 87.8-45.1h.8c62.6 .4 99.9 39.5 103.7 107.7l-.2 .2zm-156 68.8c1.3 25.1 28.4 36.8 54.6 35.3c25.6-1.4 54.6-11.4 59.5-73.2c-13.2-2.9-27.8-4.4-43.4-4.4c-4.8 0-9.6 .1-14.4 .4c-42.9 2.4-57.2 23.2-56.2 41.8l-.1 .1z">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on TikTok" class="color-gray-light" href="https://www.tiktok.com/@flatironschool?lang=en" target="_blank">
+         <svg aria-label="TikTok" fill="currentColor" height="24" width="22" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M21.023 5.748v4.108a9.786 9.786 0 0 1-5.715-1.832v8.383c0 4.194-3.394 7.593-7.58 7.593a7.536 7.536 0 0 1-4.22-1.284l-.002-.001a7.588 7.588 0 0 1-3.359-6.308c0-4.193 3.394-7.593 7.58-7.592.349 0 .696.023 1.041.07v4.2a3.47 3.47 0 0 0-4.52 3.31c0 1.356.776 2.53 1.907 3.103a3.47 3.47 0 0 0 5.028-3.09V-.001h4.125v.528a5.751 5.751 0 0 0 2.68 4.352 5.62 5.62 0 0 0 .001 0c.91.57 1.962.87 3.034.868Zm-1.46.347Z" fill-rule="evenodd">
+          </path>
+         </svg>
+        </a>
+       </li>
+       <li class="list-item">
+        <a aria-label="Visit us on GitHub" class="color-gray-light" href="https://github.com/flatiron-school" target="_blank">
+         <svg aria-label="GitHub" fill="currentColor" height="24" width="25" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M12.303 0C5.506 0 0 5.506 0 12.303c0 5.445 3.522 10.043 8.413 11.674.615.107.845-.262.845-.585 0-.292-.015-1.261-.015-2.291-3.091.569-3.891-.754-4.137-1.446-.138-.354-.738-1.446-1.261-1.738-.43-.23-1.046-.8-.016-.815.97-.015 1.661.892 1.892 1.261 1.107 1.86 2.876 1.338 3.584 1.015.107-.8.43-1.338.784-1.645-2.738-.308-5.598-1.37-5.598-6.075 0-1.338.477-2.446 1.26-3.307-.122-.308-.553-1.569.124-3.26 0 0 1.03-.323 3.383 1.26.985-.276 2.03-.415 3.076-.415 1.046 0 2.092.139 3.076.416 2.353-1.6 3.384-1.261 3.384-1.261.676 1.691.246 2.952.123 3.26.784.861 1.26 1.953 1.26 3.307 0 4.721-2.875 5.767-5.613 6.075.446.384.83 1.122.83 2.276 0 1.645-.015 2.968-.015 3.383 0 .323.231.707.846.585 4.86-1.63 8.382-6.244 8.382-11.674C24.607 5.506 19.101 0 12.304 0Z" fill-rule="evenodd">
+          </path>
+         </svg>
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="site-copyright">
+     ©2025 Flatiron School
+     <br/>
+     All rights reserved.
+    </div>
+   </div>
+  </footer>
+  <!--googleoff: all-->
+  <div data-nosnippet="true" id="cookie-law-info-bar">
+   <span>
+    <div class="cli-bar-container cli-style-v2">
+     <div class="cli-bar-message">
+      By continuing your journey on our site, you consent to the placement of cookies.  To learn more about how we use cookies or how you can disable them, please see our
+      <a href="https://flatironschool.com/privacy/" target="_blank">
+       Cookie Policy
+      </a>
+      .
+     </div>
+     <div class="cli-bar-btn_container">
+      <a class="medium cli-plugin-button cli-plugin-main-button cookie_action_close_header cli_action_button wt-cli-accept-btn" data-cli_action="accept" id="cookie_action_close_header" role="button">
+       Accept
+      </a>
+      <a class="medium cli-plugin-button cli-plugin-main-link" href="https://flatironschool.com/privacy" id="CONSTANT_OPEN_URL" target="_blank">
+       Read More
+      </a>
+     </div>
+    </div>
+   </span>
+  </div>
+  <div data-nosnippet="true" id="cookie-law-info-again">
+   <span id="cookie_hdr_showagain">
+    Manage consent
+   </span>
+  </div>
+  <div aria-hidden="true" aria-labelledby="cliSettingsPopup" class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" role="dialog" tabindex="-1">
+   <div class="cli-modal-dialog" role="document">
+    <div class="cli-modal-content cli-bar-popup">
+     <button class="cli-modal-close" id="cliModalClose" type="button">
+      <svg class="" viewbox="0 0 24 24">
+       <path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z">
+       </path>
+       <path d="M0 0h24v24h-24z" fill="none">
+       </path>
+      </svg>
+      <span class="wt-cli-sr-only">
+       Close
+      </span>
+     </button>
+     <div class="cli-modal-body">
+      <div class="cli-container-fluid cli-tab-container">
+       <div class="cli-row">
+        <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+         <div class="cli-privacy-overview">
+          <h4>
+           Privacy Overview
+          </h4>
+          <div class="cli-privacy-content">
+           <div class="cli-privacy-content-text">
+            This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.
+           </div>
+          </div>
+          <a aria-label="Show more" class="cli-privacy-readmore" data-readless-text="Show less" data-readmore-text="Show more" role="button">
+          </a>
+         </div>
+        </div>
+        <div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Necessary
+           </a>
+           <div class="wt-cli-necessary-checkbox">
+            <input checked="checked" class="cli-user-preference-checkbox" data-id="checkbox-necessary" id="wt-cli-checkbox-necessary" type="checkbox">
+             <label class="form-check-label" for="wt-cli-checkbox-necessary">
+              Necessary
+             </label>
+            </input>
+           </div>
+           <span class="cli-necessary-caption">
+            Always Enabled
+           </span>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="necessary">
+            <div class="wt-cli-cookie-description">
+             Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+             <table class="cookielawinfo-row-cat-table cookielawinfo-winter">
+              <thead>
+               <tr>
+                <th class="cookielawinfo-column-1">
+                 Cookie
+                </th>
+                <th class="cookielawinfo-column-3">
+                 Duration
+                </th>
+                <th class="cookielawinfo-column-4">
+                 Description
+                </th>
+               </tr>
+              </thead>
+              <tbody>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 cookielawinfo-checkbox-analytics
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".
+                </td>
+               </tr>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 cookielawinfo-checkbox-functional
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".
+                </td>
+               </tr>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 cookielawinfo-checkbox-necessary
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".
+                </td>
+               </tr>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 cookielawinfo-checkbox-others
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.
+                </td>
+               </tr>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 cookielawinfo-checkbox-performance
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".
+                </td>
+               </tr>
+               <tr class="cookielawinfo-row">
+                <td class="cookielawinfo-column-1">
+                 viewed_cookie_policy
+                </td>
+                <td class="cookielawinfo-column-3">
+                 11 months
+                </td>
+                <td class="cookielawinfo-column-4">
+                 The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.
+                </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Functional
+           </a>
+           <div class="cli-switch">
+            <input class="cli-user-preference-checkbox" data-id="checkbox-functional" id="wt-cli-checkbox-functional" type="checkbox"/>
+            <label class="cli-slider" data-cli-disable="Disabled" data-cli-enable="Enabled" for="wt-cli-checkbox-functional">
+             <span class="wt-cli-sr-only">
+              Functional
+             </span>
+            </label>
+           </div>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="functional">
+            <div class="wt-cli-cookie-description">
+             Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Performance
+           </a>
+           <div class="cli-switch">
+            <input class="cli-user-preference-checkbox" data-id="checkbox-performance" id="wt-cli-checkbox-performance" type="checkbox"/>
+            <label class="cli-slider" data-cli-disable="Disabled" data-cli-enable="Enabled" for="wt-cli-checkbox-performance">
+             <span class="wt-cli-sr-only">
+              Performance
+             </span>
+            </label>
+           </div>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="performance">
+            <div class="wt-cli-cookie-description">
+             Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Analytics
+           </a>
+           <div class="cli-switch">
+            <input class="cli-user-preference-checkbox" data-id="checkbox-analytics" id="wt-cli-checkbox-analytics" type="checkbox"/>
+            <label class="cli-slider" data-cli-disable="Disabled" data-cli-enable="Enabled" for="wt-cli-checkbox-analytics">
+             <span class="wt-cli-sr-only">
+              Analytics
+             </span>
+            </label>
+           </div>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="analytics">
+            <div class="wt-cli-cookie-description">
+             Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Advertisement
+           </a>
+           <div class="cli-switch">
+            <input class="cli-user-preference-checkbox" data-id="checkbox-advertisement" id="wt-cli-checkbox-advertisement" type="checkbox"/>
+            <label class="cli-slider" data-cli-disable="Disabled" data-cli-enable="Enabled" for="wt-cli-checkbox-advertisement">
+             <span class="wt-cli-sr-only">
+              Advertisement
+             </span>
+            </label>
+           </div>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="advertisement">
+            <div class="wt-cli-cookie-description">
+             Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="cli-tab-section">
+          <div class="cli-tab-header">
+           <a class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab" role="button" tabindex="0">
+            Others
+           </a>
+           <div class="cli-switch">
+            <input class="cli-user-preference-checkbox" data-id="checkbox-others" id="wt-cli-checkbox-others" type="checkbox"/>
+            <label class="cli-slider" data-cli-disable="Disabled" data-cli-enable="Enabled" for="wt-cli-checkbox-others">
+             <span class="wt-cli-sr-only">
+              Others
+             </span>
+            </label>
+           </div>
+          </div>
+          <div class="cli-tab-content">
+           <div class="cli-tab-pane cli-fade" data-id="others">
+            <div class="wt-cli-cookie-description">
+             Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="cli-modal-footer">
+      <div class="wt-cli-element cli-container-fluid cli-tab-container">
+       <div class="cli-row">
+        <div class="cli-col-12 cli-align-items-stretch cli-px-0">
+         <div class="cli-tab-footer wt-cli-privacy-overview-actions">
+          <a class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn" data-cli-action="accept" id="wt-cli-privacy-save-btn" role="button" tabindex="0">
+           SAVE &amp; ACCEPT
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="cli-modal-backdrop cli-fade cli-settings-overlay">
+  </div>
+  <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay">
+  </div>
+  <!--googleon: all-->
+  <!-- Misc. custom logic from the flatiron-labs/snippets repo (ENG/DP 2024.11.18) -->
+  <script src="https://flatiron-school-snippets.s3.us-east-1.amazonaws.com/marketing.js">
+  </script>
+  <link href="https://flatironschool.com/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.2.7" id="cookie-law-info-table-css" media="all" rel="stylesheet" type="text/css">
+   <script id="eio-lazy-load-js-before" type="text/javascript">
+    /* <![CDATA[ */
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+/* ]]> */
+   </script>
+   <script async="async" data-wp-strategy="async" id="eio-lazy-load-js" src="https://flatironschool.com/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=791" type="text/javascript">
+   </script>
+   <script id="site-scripts-js-extra" type="text/javascript">
+    /* <![CDATA[ */
+var ajax_global = {"url":"https:\/\/flatironschool.com\/wp-admin\/admin-ajax.php","nonce":"5a54f75941"};
+/* ]]> */
+   </script>
+   <script id="site-scripts-js" src="https://flatironschool.com/wp-content/themes/flatiron-school/assets/js/app.js?id=bff1bf9f576db143333e313acebe31c8" type="text/javascript">
+   </script>
+   <script id="mathjax-js" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=default&amp;ver=1.3.12" type="text/javascript">
+   </script>
+  </link>
+ </body>
+</html>
